@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favBg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#0a101d" />
+    </linearGradient>
+    <linearGradient id="favRim" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="favHeartL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff4b72" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <linearGradient id="favHeartR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fb7185" />
+      <stop offset="100%" stop-color="#be123c" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#favBg)" stroke="url(#favRim)" stroke-width="1.5" />
+
+  <!-- Left Bracket '{' -->
+  <path d="M 14 22 C 14 28 10 30 10 32 C 10 34 14 36 14 42"
+        stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+  <!-- Right Bracket '}' -->
+  <path d="M 50 22 C 50 28 54 30 54 32 C 54 34 50 36 50 42"
+        stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+  <!-- Left Heart Lobe -->
+  <path d="M 30.5 22 C 27 16 19 17 17 24 C 15 31 21 38 30 46 L 30 41 L 27 35 L 31 31 L 28 26 Z"
+        fill="url(#favHeartL)" />
+
+  <!-- Right Heart Lobe -->
+  <path d="M 33.5 22 C 37 16 45 17 47 24 C 49 31 43 38 34 46 L 34 41 L 31 35 L 35 31 L 32 26 Z"
+        fill="url(#favHeartR)" />
+
+  <!-- Electric Fracture Line -->
+  <path d="M 32 20 L 29 27 L 33 30 L 29 36 L 33 41 L 32 47"
+        stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>
